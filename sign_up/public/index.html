@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" give your description here">
+    <meta name="author" content="rishabhio">
+
+    <title>rishabh.io - Exploring Machine Learning</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+	<link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel = "stylesheet">
+    <!-- Custom Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" type="text/css">
+
+	
+	
+ 
+	
+
+ <script src="http://192.168.43.18/resources/js/angular.min.js"></script>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+ <script src="app.js"></script>
+
+</head>
+
+<body  ng-app="signupApp">
+
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="#">Sign Up App </a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li><a ui-sref="signup">signup</a></li>
+        <li><a ui-sref="show">show</a></li>
+         
+    </ul>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+    <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+    <div ui-view></div>
+
+</div>
+
+
+</body>
+</html>

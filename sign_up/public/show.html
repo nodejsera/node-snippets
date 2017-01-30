@@ -1,0 +1,35 @@
+<h1> Community Members </h1>
+<div ng-app="signupApp" ng-controller="showController"> 
+
+<table class="table">
+
+
+
+   <thead>
+      <tr>
+         <th>Name</th>
+         <th>Email </th>
+		 <th>Country </th>
+		 <th>Gender </th>
+		 <th>Interest </th>
+		 <th>DOB </th>
+		 <th>Message </th>
+		 <th>Phone </th>
+      </tr>
+   </thead>
+   
+   
+   
+ <tr ng-repeat="x in community">
+   <td>{{ x.name }}</td>
+    <td>{{ x.email }}</td>
+   <td>{{ x.country }}</td>
+   <td>{{ x.gender }}</td>
+     <td>{{ x.interest }}</td>
+	   <td>{{ x.dob }}</td>
+	     <td>{{ x.message }}</td>
+		   <td>{{ x.phone }}</td>
+ </tr>
+</table>
+
+</div>
